@@ -5,10 +5,12 @@ function showDate(timestamp) {
   if (hours < 10) {
     hours = `0${hours}`;
   }
+
   let minutes = date.getMinutes();
   if (minutes < 10) {
-    minites = `0${minutes}`;
+    minutes = `0${minutes}`;
   }
+
   let days = [
     "Sunday",
     "Monday",
