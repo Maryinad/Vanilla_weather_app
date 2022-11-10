@@ -20,6 +20,24 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="search-form" class="mb-4">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city..."
+                  class="form-control"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-info w-100"
+                />
+              </div>
+            </div>
+          </form>
           <div class="overview">
             <h1 id="city"></h1>
             <ul>
@@ -35,7 +53,6 @@
                   alt="Clear"
                   class="float-left"
                   id="icon"
-                  ;
                 />
                 <div class="float-left">
                   <strong id="temperature">12</strong
